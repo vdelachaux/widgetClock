@@ -1,0 +1,152 @@
+﻿{
+	"destination": "detailScreen",
+	"windowTitle": "What Time Is It Around The World Right Now?",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"clock_usa": {
+					"type": "subform",
+					"top": 14,
+					"left": 16,
+					"width": 150,
+					"height": 150,
+					"dataSourceTypeHint": "number",
+					"detailForm": "clock",
+					"focusable": false,
+					"hideFocusRing": true,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				},
+				"label_usa": {
+					"type": "text",
+					"top": 181,
+					"left": 16,
+					"width": 150,
+					"height": 16,
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "San Francisco"
+				},
+				"clock_france": {
+					"type": "subform",
+					"top": 14,
+					"left": 186,
+					"width": 150,
+					"height": 150,
+					"dataSourceTypeHint": "number",
+					"detailForm": "clock",
+					"focusable": false,
+					"hideFocusRing": true,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				},
+				"clock_russia": {
+					"type": "subform",
+					"top": 14,
+					"left": 356,
+					"width": 150,
+					"height": 150,
+					"dataSourceTypeHint": "number",
+					"detailForm": "clock",
+					"focusable": false,
+					"hideFocusRing": true,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				},
+				"label_france": {
+					"type": "text",
+					"top": 181,
+					"left": 186,
+					"width": 150,
+					"height": 16,
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Paris"
+				},
+				"label_russia": {
+					"type": "text",
+					"top": 181,
+					"left": 356,
+					"width": 150,
+					"height": 16,
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Санкт-Петербург"
+				},
+				"clock_australia": {
+					"type": "subform",
+					"top": 14,
+					"left": 526,
+					"width": 150,
+					"height": 150,
+					"dataSourceTypeHint": "number",
+					"detailForm": "clock",
+					"focusable": false,
+					"hideFocusRing": true,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable"
+				},
+				"label_australia": {
+					"type": "text",
+					"top": 181,
+					"left": 526,
+					"width": 150,
+					"height": 16,
+					"textAlign": "center",
+					"fontWeight": "bold",
+					"text": "Melbourne"
+				}
+			}
+		}
+	],
+	"editor": {
+		"activeView": "default",
+		"defaultView": "default",
+		"views": {
+			"default": {},
+			"View 2": {},
+			"View 3": {},
+			"View 4": {},
+			"View 5": {},
+			"View 6": {},
+			"View 7": {},
+			"View 8": {},
+			"View 9": {},
+			"View 10": {}
+		}
+	},
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

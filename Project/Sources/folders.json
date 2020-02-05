@@ -1,0 +1,19 @@
+﻿{
+	"demo": {
+		"methods": [
+			"COMPILER_Demo",
+			"Demo_clock",
+			"get_timezoneOffset"
+		],
+		"forms": [
+			"Demo",
+			"Form1"
+		]
+	},
+	"widget": {
+		"forms": [
+			"clock"
+		]
+	},
+	"trash": {}
+}

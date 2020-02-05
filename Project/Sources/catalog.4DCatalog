@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
+<base name="" uuid="AFEA632ADBF641FABD2DB43FCB21A1CB" collation_locale="fr">
+	<schema name="DEFAULT_SCHEMA"/>
+	<base_extra package_name="widget clock" structure_file_name="widget clock" data_file_path=":widget clock.4DD" __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0">
+		<temp_folder folder_selector="data"/>
+	</base_extra>
+</base>

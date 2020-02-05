@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="8">
+	<com.4d>
+		<general startup_environnement="1">
+			<mover always_display_dialog="2"/>
+		</general>
+		<interface>
+			<user can_change_password="true" display_list="false" print_progress="false"/>
+			<developper allow_read_only_structure="false"/>
+			<misc formula_editor_with_full_lists="false"/>
+                      		</interface>
+		<web>
+			<standalone_server>
+				<configuration ip_address="0" port_number="8080" automatic_session_management="false" listening_address="::">
+					<hosts>
+						<host id="0" name="Default" html_root="./DossierWeb/" home_page="index.html"/>
+					</hosts>
+				</configuration>
+				<options>
+					<web_processes timeout_for_inactives="5"/>
+					<cache cache_max_size="524288" use_4d_web_cache="false"/>
+					<web_passwords generic_web_user="1"/>
+					<filters allow_4dsync_urls="true"/>
+                                      				</options>
+				<log tokens="">
+					<backup daily="" hourly="" mode="0" monthly="" size="0" weekly=""/>
+                  				</log>
+				<misc/>
+                              			</standalone_server>
+			<remote>
+				<misc/>
+				<options>
+					<web_processes timeout_for_inactives="5"/>
+					<cache cache_max_size="524288" use_4d_web_cache="false"/>
+					<web_passwords generic_web_user="1"/>
+					<filters allow_4dsync_urls="true"/>
+                                      				</options>
+				<configuration allow_ssl="false" ip_address="0" automatic_session_management="false"/>
+				<webservices allow_requests="false"/>
+                                      			</remote>
+                		</web>
+		<database>
+			<cpu_priority/>
+			<cache size_maximum="100" size_reserved="128" size_fixed="32"/>
+			<misc/>
+          		</database>
+		<compiler>
+			<typage default_for_button="1" default_for_numeric="1"/>
+			<options compilation_path="3"/>
+                		</compiler>
+		<server>
+			<network>
+				<options publication_name="SVG Analogic Clock" use_legacy_network_layer="true"/>
+			</network>
+		</server>
+                      	</com.4d>
+  </preferences>
