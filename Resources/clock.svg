@@ -1,1 +1,52 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?><svg xmlns="http://www.w3.org/2000/svg" height="400" width="400" xmlns:d4="http://www.4d.com/d4-ns">  <metadata xmlns="http://www.4D.com/4DSVG">    <generator>4D SVG Component version 13.0 hotfix 3 ©2008-2013 4D SAS.</generator>    <about>4D SVG is the quintessential vector drawing tool for 4D developers.</about>    <generation date="2013-05-03Z" system="Mac OSX 10.8.3" time="PT20H14M38S"/>  </metadata>  <defs id="4D">    <style type="text/css">text{font-size:24;font-family:'Lucida grande' 'ArialMT';}</style>  </defs>  <circle cx="200" cy="200" fill="white" r="198" stroke="black" stroke-width="1"/>  <circle cx="200" cy="200" fill="none" r="190" stroke="black" stroke-width="6"/>  <circle cx="200" cy="200" fill="none" r="182" stroke="black" stroke-width="1"/>  <circle cx="200" cy="200" d4:day-fill="none" d4:night-fill="black" fill="white" id="watch-dial" r="181" stroke="white" stroke-width="1"/>  <g d4:day-fill="black" d4:night-fill="white" fill="black" id="labels" letter-spacing="-1" stroke="black">    <text font-size="24" x="273.53557754288" y="66.302445055623">1</text>    <text font-size="24" x="335.97923935197" y="128.78631156573">2</text>    <text font-size="24" x="357.13445946819" y="207.48450280371">3</text>    <text font-size="24" x="333.92031289858" y="289.31730087157">4</text>    <text font-size="24" x="274" y="352.1717597601">5</text>    <text font-size="24" x="192.14960656356" y="373.79443021319">6</text>    <text font-size="24" x="110.52207592924" y="351.78771890908">7</text>    <text font-size="24" x="50.178544946613" y="290.70480946443">8</text>    <text font-size="24" x="27.658317230128" y="208.92205650466">9</text>    <text font-size="24" x="44.807198403374" y="127.02477464532">10</text>    <text font-size="24" x="103.02477464532" y="68.807198403374">11</text>    <text font-size="24" x="185.95582186472" y="45.55179726177">12</text>  </g>  <g id="hands">    <rect d4:cx="200" d4:cy="200" d4:day-fill="black" d4:night-fill="white" fill="black" height="100" id="hours-hand" rx="4" ry="4" stroke="black" width="6" x="197" y="197"/>  </g>  <g d4:cx="200" d4:cy="200" d4:day-fill="black" d4:night-fill="white" fill="black" id="minutes-hand" stroke="black">    <rect height="135" rx="4" ry="4" width="6" x="197" y="197"/>    <circle cx="200" cy="200" r="5" stroke-width="1"/>  </g>  <g d4:cx="200" d4:cy="200" fill="red" id="seconds-hand" stroke="red">    <rect height="180" rx="2" ry="2" width="2" x="199" y="155"/>    <circle cx="200" cy="330" r="10"/>    <circle cx="200" cy="200" fill="white" r="5" stroke="black" stroke-width="1"/>  </g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<svg xmlns="http://www.w3.org/2000/svg" height="400" width="400" xmlns:d4="http://www.4d.com/d4-ns">
+
+  <metadata xmlns="http://www.4D.com/4DSVG">
+    <generator>4D SVG Component version 13.0 hotfix 3 ©2008-2013 4D SAS.</generator>
+    <about>4D SVG is the quintessential vector drawing tool for 4D developers.</about>
+    <generation date="2013-05-03Z" system="Mac OSX 10.8.3" time="PT20H14M38S"/>
+  </metadata>
+
+  <defs id="4D">
+    <style type="text/css">text{font-size:24;font-family:'Lucida grande' 'ArialMT';}</style>
+  </defs>
+
+  <circle cx="200" cy="200" fill="white" r="198" stroke="black" stroke-width="1"/>
+
+  <circle cx="200" cy="200" fill="none" r="190" stroke="black" stroke-width="6"/>
+
+  <circle cx="200" cy="200" fill="none" r="182" stroke="black" stroke-width="1"/>
+
+  <circle cx="200" cy="200" d4:day-fill="none" d4:night-fill="black" fill="white" id="watch-dial" r="181" stroke="white" stroke-width="1"/>
+
+  <g d4:day-fill="black" d4:night-fill="white" fill="black" id="labels" letter-spacing="-1" stroke="black">
+    <text font-size="24" x="273.53557754288" y="66.302445055623">1</text>
+    <text font-size="24" x="335.97923935197" y="128.78631156573">2</text>
+    <text font-size="24" x="357.13445946819" y="207.48450280371">3</text>
+    <text font-size="24" x="333.92031289858" y="289.31730087157">4</text>
+    <text font-size="24" x="274" y="352.1717597601">5</text>
+    <text font-size="24" x="192.14960656356" y="373.79443021319">6</text>
+    <text font-size="24" x="110.52207592924" y="351.78771890908">7</text>
+    <text font-size="24" x="50.178544946613" y="290.70480946443">8</text>
+    <text font-size="24" x="27.658317230128" y="208.92205650466">9</text>
+    <text font-size="24" x="44.807198403374" y="127.02477464532">10</text>
+    <text font-size="24" x="103.02477464532" y="68.807198403374">11</text>
+    <text font-size="24" x="185.95582186472" y="45.55179726177">12</text>
+  </g>
+
+  <g id="hands">
+    <rect d4:cx="200" d4:cy="200" d4:day-fill="black" d4:night-fill="white" fill="black" height="100" id="hours-hand" rx="4" ry="4" stroke="black" width="6" x="197" y="197"/>
+  </g>
+
+  <g d4:cx="200" d4:cy="200" d4:day-fill="black" d4:night-fill="white" fill="black" id="minutes-hand" stroke="black">
+    <rect height="135" rx="4" ry="4" width="6" x="197" y="197"/>
+    <circle cx="200" cy="200" r="5" stroke-width="1"/>
+  </g>
+
+  <g d4:cx="200" d4:cy="200" fill="red" id="seconds-hand" stroke="red">
+    <rect height="180" rx="2" ry="2" width="2" x="199" y="155"/>
+    <circle cx="200" cy="330" r="10"/>
+    <circle cx="200" cy="200" fill="white" r="5" stroke="black" stroke-width="1"/>
+  </g>
+
+</svg>
